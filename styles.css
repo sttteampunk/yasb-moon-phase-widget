@@ -1,0 +1,23 @@
+/* MOON WIDGET STYLING */
+.moon-phase .widget-container .label {
+  color: #e5e7eb;
+  font-family: "JetBrainsMono NFP";
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  overflow: visible;
+  padding: 0 10px;
+  margin-right: -6px;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.7);
+}
+
+.tooltip {
+  background-color: #000000B3;
+  border-radius: 4px;
+  color: #e5e7eb;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-family: "JetBrainsMono NFP";
+  font-weight: 600;
+  margin-top: 4px;
+}

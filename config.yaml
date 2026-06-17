@@ -1,0 +1,16 @@
+moon_phase:
+  type: "yasb.custom.CustomWidget"
+  options:
+    label: "{data[icon]}  "
+    tooltip: true
+    tooltip_label: "{data[name]} ({data[illumination]} Illuminated)"
+    class_name: "moon-phase"
+    exec_options:
+      run_cmd: "python D:/Dotfiles/yasb/scripts/moon_phase.py" # <-- Change this
+      run_interval: 43200000
+      return_format: "json"
+      use_shell: true
+    callbacks:
+      on_left: "do_nothing"
+      on_right: "do_nothing"
+      on_middle: "do_nothing"
