@@ -46,7 +46,7 @@ moon_phase:
 
 ### 3. Styling (`styles.css`)
 
-Add the following CSS styles to your YASB stylesheet to achieve the clean text-glow and tooltip formatting shown in `image_43ed03.png`:
+Add the following CSS styles to your YASB stylesheet to achieve the clean text-glow and tooltip formatting shown in preview image:
 
 ```css
 /* MOON WIDGET STYLING */
